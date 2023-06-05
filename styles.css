@@ -40,7 +40,13 @@
     justify-content: space-around;
 }
 
-.devPic img {
-    width: 381px;
-    
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.devPic img {
+    height: 78vh;  
+}
+
