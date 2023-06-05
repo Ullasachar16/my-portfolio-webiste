@@ -32,8 +32,15 @@
 }
 
 .infoContainer {
-    background-color: rgb(222,9,128);
+    background-color: rgb(202, 9, 128);
     height: 78vh;
     width: 80vw;
     margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img {
+    width: 381px;
+    
 }
