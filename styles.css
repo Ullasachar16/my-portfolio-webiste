@@ -9,7 +9,7 @@
 
 .sidebar {
     background-color: rgb(223, 218, 218);
-    width: 10vw;
+    width: 434px;
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
 }
@@ -70,6 +70,7 @@
 
 .moreabout {
     font-size: 22px;
+    margin: 23px;
     font-family: 'Fira Sans', sans-serif;
 }
 
