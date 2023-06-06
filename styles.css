@@ -8,7 +8,7 @@
 }
 
 .sidebar {
-    background-color: rgb(168, 165, 165);
+    background-color: rgb(223, 218, 218);
     width: 10vw;
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
@@ -22,6 +22,11 @@
     list-style: none;
     font-size: 27px;
     padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
 }
 
 .main {
