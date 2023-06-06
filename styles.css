@@ -107,7 +107,6 @@
 
 .contactform h1 {
     font-family: 'Source Code Pro', monospace;
-    text-align: center;
 }
 
 .contactform form div {
@@ -134,5 +133,6 @@
 }
 
 #form-check input{
-    width: 2px;
+    width: 24px;
+    margin: 3px 0;
 }
