@@ -80,8 +80,15 @@
     font-weight: bold;
     font-size: 21px;
     margin: 0 3px;
+    cursor: pointer;
 }
 
+.buttons button:hover  {
+    color: dodgerblue;
+    background-color: white;
+}
+
+ 
 .devPic img {
     height: 58vh;
 }
