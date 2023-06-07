@@ -149,11 +149,11 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
-.blogContainer h1 {
+h1 {
     font-family: 'Fira Sans', sans-serif;
     margin: 23px;
 }
 
-.blogItem p {
+p {
     font-family: 'Source Code Pro', monospace;
 }
