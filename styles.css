@@ -158,3 +158,29 @@ h1 {
 p {
     font-family: 'Source Code Pro', monospace;
 }
+
+.intro h2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+}
+
+.intro p {
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+
+.skillContainer {
+    padding: 12px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    
+}
+
+.skill {
+    width: 265px;
+    height: 8px;
+    background-color: red;
+}
