@@ -183,4 +183,20 @@ p {
     width: 265px;
     height: 8px;
     background-color: red;
+    border: 2px solid black
+}
+
+.hundred {
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty {
+    width: 125px;
+    background-color: aqua;
+}
+
+.t5 {
+    width: 75px;
+    background-color: yellow;
 }
