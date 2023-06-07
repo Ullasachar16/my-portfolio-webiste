@@ -52,6 +52,7 @@
     justify-content: center;
     flex-direction: column;
     font-family: 'Source Code Pro', monospace;
+    margin-left: 23px;
 }
 
 .hello {
@@ -70,7 +71,7 @@
 
 .moreabout {
     font-size: 22px;
-    margin: 23px;
+    /* margin: 23px; */
     font-family: 'Fira Sans', sans-serif;
 }
 
