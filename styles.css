@@ -78,7 +78,7 @@
     margin-top: 34px;
 }
 
-.buttons button {
+.btn {
     padding: 9px 14px;
     border-radius: 22px;
     color: white;
@@ -89,7 +89,13 @@
     cursor: pointer;
 }
 
-.buttons button:hover {
+.btn-sm {
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.btn:hover {
     color: dodgerblue;
     background-color: white;
 }
@@ -137,3 +143,4 @@
     width: 24px;
     margin: 3px 0;
 }
+
