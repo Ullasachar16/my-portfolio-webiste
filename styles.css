@@ -150,11 +150,8 @@
 }
 
 .blogContainer h1 {
-    
-}
-
-.blogItem h2 {
-
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
 }
 
 .blogItem p {
