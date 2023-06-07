@@ -144,3 +144,19 @@
     margin: 3px 0;
 }
 
+.blogItem {
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.blogContainer h1 {
+    
+}
+
+.blogItem h2 {
+
+}
+
+.blogItem p {
+    font-family: 'Source Code Pro', monospace;
+}
