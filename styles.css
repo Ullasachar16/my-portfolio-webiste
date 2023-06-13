@@ -176,6 +176,7 @@ p {
 .skillItem {
     display: flex;
     align-items: center;
+    font-family: 'Source Code Pro', monospace;
     
 }
 
