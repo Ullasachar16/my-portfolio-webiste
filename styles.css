@@ -8,6 +8,7 @@
 }
 
 .sidebar {
+    position: absolute;
     background-color: rgb(223, 218, 218);
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
@@ -225,6 +226,9 @@ p {
 }
 
 @media (max-width: 1615px) {
+    .devPic {
+        display: none;
+    }
     /* .sidebar {
         transform: translate(-443px, 0px);
         position: absolute;
