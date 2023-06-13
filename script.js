@@ -8,6 +8,8 @@ document.querySelector('.hamburger').addEventListener("click", () => {
     }
     else{
         document.querySelector('.ham').style.display = 'none';
-        document.querySelector('.cross').style.display = 'inline';
+        setTimeout(() => {
+            document.querySelector('.cross').style.display = 'inline';
+        },350);  
     }
 })

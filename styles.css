@@ -203,6 +203,11 @@ p {
     background-color: yellow;
 }
 
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
 .hamburger {
     position: absolute;
     cursor: pointer;
@@ -210,13 +215,13 @@ p {
     left: 10px;
 }
 
-.cross {
-    margin-left: 155px;
+.ham {
+    margin-top: 6px;
 }
 
-.sidebarGo {
-        transform: translate(-443px, 0px);
-        position: absolute;
+.cross {
+    margin-left: 180px;
+    margin-top: 6px;
 }
 
 @media (max-width: 1615px) {
