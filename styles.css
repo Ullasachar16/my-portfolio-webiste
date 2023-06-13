@@ -49,6 +49,7 @@
 }
 
 .devInfo {
+    font-size: 16px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -57,27 +58,28 @@
 }
 
 .hello {
-    font-size: 65px;
+    font-size: 3em;
 }
 
 .name {
-    font-size: 50px;
+    font-size: 3em;
     font-weight: bold;
     font-family: 'Fira Sans', sans-serif;
 }
 
 .about {
-    font-size: 40px;
+    font-size: 2.5em;
 }
 
 .moreabout {
-    font-size: 22px;
+    font-size: 2em;
     margin-top: 20px;
     font-family: 'Fira Sans', sans-serif;
 }
 
 .buttons {
-    margin-top: 34px;
+    margin-top: 2.2em;
+    font-size: 16px;
 }
 
 .btn {
@@ -86,8 +88,8 @@
     color: white;
     background-color: dodgerblue;
     font-weight: bold;
-    font-size: 21px;
-    margin: 0 3px;
+    font-size: 2em;
+    margin: 3px 3px;
     cursor: pointer;
 }
 
@@ -108,14 +110,14 @@
 }
 
 .contactform {
-    padding: 144px 0 0 43px;
+    padding: 0 34px;
     font-family: 'Fira Sans', sans-serif;
     margin: 0 88px;
 }
 
 .contactform h1 {
     font-family: 'Source Code Pro', monospace;
-    padding: 12px 0;
+    /* padding: 12px 0; */
 }
 
 .contactform form div {
@@ -125,10 +127,14 @@
 }
 
 .contactform form div input {
-    width: 26vw;
+    /* width: 26vw; */
     border-radius: 5px;
     margin: 6px 0 0 0;
     padding: 3px;
+}
+
+.contactform form {
+    margin: 0 40px;
 }
 
 #emailHelp {
@@ -236,10 +242,21 @@ p {
 }
 
 @media (max-width: 1615px) {
+    .buttons {
+        font-size: 6px;
+    }
+
+    .devInfo {
+        font-size: 10px;
+    }
+
     .devPic {
         display: none;
     }
 
+    .intro, .blogContainer, .contactform {
+        margin: 50px 8px;
+    }
     /* .sidebar {
         transform: translate(-443px, 0px);
         position: absolute;
