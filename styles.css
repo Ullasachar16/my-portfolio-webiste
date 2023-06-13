@@ -177,6 +177,7 @@ p {
     display: flex;
     align-items: center;
     font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
     
 }
 
@@ -200,4 +201,11 @@ p {
 .t5 {
     width: 75px;
     background-color: yellow;
+}
+
+@media (max-width: 1615px ) {
+    .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
 }
